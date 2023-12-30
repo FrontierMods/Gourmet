@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "gourmet",
+
+    "name": "Gourmet",
+    "description": "Gourmet adds new items of food, recipes, and cooking tools, and revamps existing ones",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "items",
+
+    "dependencies": ["dda", "frontier_core"]
+  }
+]
