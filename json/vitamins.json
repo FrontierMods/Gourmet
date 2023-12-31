@@ -1,0 +1,50 @@
+[
+  {
+    "id": "vitamin_B2",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+
+    "name": { "str": "Vitamin B2" },
+
+    "min": -48000,
+    "max": 0,
+
+    "rate": "15 m"
+  },
+  {
+    "id": "vitamin_B3",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+
+    "name": { "str": "Vitamin B3" },
+
+    "min": -48000,
+    "max": 0,
+
+    "rate": "15 m"
+  },
+  {
+    "id": "vitamin_B6",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+
+    "name": { "str": "Vitamin B6" },
+
+    "min": -48000,
+    "max": 0,
+
+    "rate": "15 m"
+  },
+  {
+    "id": "vitamin_B12",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+
+    "name": { "str": "Vitamin B12" },
+
+    "min": -48000,
+    "max": 0,
+
+    "rate": "15 m"
+  }
+]
