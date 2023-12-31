@@ -1,0 +1,60 @@
+[
+  {
+    "id": "drink_energy_monster",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+
+    "//sources": [
+      [
+        "https://www.walmart.com/ip/Monster-Energy-Original-Energy-Drink-16-fl-oz/12018560",
+        "price",
+        "nutrition"
+      ],
+      [
+        "https://www.foodstandards.gov.au/business/labelling/nutrition-panel-calculator/specific-gravities",
+        "specific gravity"
+      ]
+    ],
+
+    "name": {
+      "str": "Monster Energy"
+    },
+    "description": "A carbonated, caffeinated drink that looks like apple soda.  The second-most popular energy drink in the US.  Relies primarily on its caffeine and taurine content to give you a feeling of boosted energy.",
+
+    "//weight": "volume × specific gravity (1.07 for energy drinks)",
+    "weight": "32 g",
+    "volume": "30 ml",
+
+    "material": ["junk"],
+    "primary_material": "water",
+    "phase": "liquid",
+
+    "symbol": "~",
+    "color": "magenta",
+    "looks_like": "cola",
+
+    "container": "can_aluminum_12oz",
+
+    "calories": 14,
+    "vitamins": [
+      ["vitamin_B2", 16],
+      ["vitamin_B3", 16],
+      ["vitamin_B6", 15],
+      ["vitamin_B12", 31]
+    ],
+
+    "quench": 2,
+    "healthy": -1,
+    "stim": 1,
+    "fatigue_mod": 3,
+    "fun": 5,
+
+    "addiction_type": "caffeine",
+    "addiction_potential": 2,
+
+    "flags": ["EATEN_COLD", "NO_AUTO_CONSUME"],
+
+    "price": "14 cent",
+    "price_postapoc": "2 cent"
+  }
+]
