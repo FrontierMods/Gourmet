@@ -1,0 +1,76 @@
+[
+  {
+    "id": "sachet_instant_coffee",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://www.vp-packaging.com/applications/coffee-package/coffee-powder/whats-the-package-dimension-for-15-grams-nestle-instant-coffee-powder-stick-package/",
+      ["https://en.wikipedia.org/wiki/Instant_coffee", "density"],
+      [
+        "https://www.nestleprofessional.co.uk/coffee/nescafe-original-200-1-8g",
+        "spoil multiplier reference"
+      ],
+      [
+        "https://www.alibaba.com/product-detail/Custom-Printed-Instant-Coffee-Packaging-Food_62083377647.html",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "instant coffee sachet"
+    },
+    "description": "A slim plastic sachet intended for storing instant coffee.",
+
+    "//weight": "weight in source may not be exact",
+    "weight": "1 g",
+    "//dimensions": {
+      "length": "150 mm",
+      "width": "28 mm",
+      "height": "0.05 mm",
+      "raw": "0.21 ml",
+      "trim": 0,
+      "notes": ["volume is per `count`"]
+    },
+    "volume": "4 ml",
+
+    "to_hit": -4,
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "light_gray",
+
+    "count": 19,
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "watertight": true,
+        "open_container": true,
+
+        "//max_contains_weight": "slightly higher than the intended weight of instant coffee, because the packaging appears to be sturdy-enough for this",
+        "max_contains_weight": "35 g",
+        "//max_contains_volume": [
+          "from coffee powder weight per sachet, divided by density of spray-dried coffee",
+          "15 g / 0.22 g/cm3 = 68.2 cm3",
+          "we assume this to be the capacity, since a closed sachet comes with this much coffee powder, and an opened sachet would not retain any more because of the cut top that would need to be folded to reliably contain the contents"
+        ],
+        "max_contains_volume": "68 ml",
+        "max_item_volume": "10 ml",
+
+        "//sealed_data": "24 months shelf life",
+        "sealed_data": {
+          "spoil_multiplier": 0
+        }
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS", "FRAGILE_MELEE"],
+
+    "//price": "we presume the lower price, since it's highly-likely that these would've been ordered in bulk by large instant-coffee producers before the Cataclysm",
+    "price": "8 cent",
+    "price_postapoc": "0 cent"
+  }
+]
